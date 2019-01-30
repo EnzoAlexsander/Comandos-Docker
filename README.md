@@ -23,7 +23,7 @@ docker exec "id container" = Executa qualquer comando no container sem precisar 
 	--name "algum nome" = permite atribuir um nome ao container em execução
 	-p 8080:80 = mapeia a porta 80 do container para a porta 8080 do host
 	-d = executa o container em background
-	-v /pasta/host:/pasta/container = cria um volume '/pasta/container' 		dentro do container com o conteúdo da pasta '/pasta/host' do host
+	-v /pasta/host:/pasta/container = cria um volume '/pasta/container' dentro do container com o conteúdo da pasta '/pasta/host' do host
 
 docker images = Listar as imagens que estão no host
 
